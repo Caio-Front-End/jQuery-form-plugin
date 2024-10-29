@@ -1,50 +1,22 @@
-# Projeto de Layout Responsivo com CSS
+## Formulário de Cadastro - Projeto Pessoal
 
-> Este repositório contém o código CSS para um layout responsivo que se adapta a diferentes tamanhos de tela, com foco em uma apresentação clara e intuitiva.
+### Descrição
+Este projeto consiste em um formulário de cadastro básico desenvolvido utilizando HTML, CSS e JavaScript. O objetivo é coletar informações do usuário e realizar uma validação simples dos dados inseridos.
 
----
+### Tecnologias Utilizadas
+* **HTML5:** Estrutura da página
+* **CSS3:** Estilização da página
+* **JavaScript:** Lógica do formulário, validação e interações
+* **jQuery:** Biblioteca JavaScript para facilitar a manipulação do DOM
+* **jQuery Validate:** Plugin para validação de formulários
+* **jQuery Mask:** Plugin para formatação de campos (ex: telefone, CPF)
 
-## **Estrutura do Projeto**
+### Funcionalidades
+* Coleta de dados do usuário (nome, email, telefone, CPF, endereço, CEP)
+* Validação dos campos obrigatórios
+* Formatação de campos numéricos (telefone, CPF, CEP)
+* Mensagem de sucesso ao enviar o formulário
 
-O projeto é dividido em três seções principais:
-
-- **Header**: Estilizado com fundo semi-transparente e menu adaptativo. Em telas menores, apresenta um ícone de menu hambúrguer para facilitar a navegação.
-  
-- **Seção Sobre**: Contém imagem e texto descritivo, organizados em layout de uma ou duas colunas, dependendo do tamanho da tela.
-  
-- **Seção de Produtos**: Apresenta uma galeria de produtos com imagens, títulos, descrições e botões de ação.
-
----
-
-## **Funcionalidades**
-
-- **Responsividade**: O layout ajusta-se automaticamente para diferentes larguras de tela, oferecendo uma experiência otimizada tanto em dispositivos móveis quanto em desktops.
-  
-- **Organização e Estilização**:
-  - Header com título estilizado e menu de navegação.
-  - Seção Sobre com imagens e texto, destacando informações de forma organizada.
-  - Seção de Produtos com botões interativos e estilização personalizada.
-
----
-
-## **Tecnologias Utilizadas**
-
-- **CSS3**: Para estilização e responsividade.
-- **Media Queries**: Para adaptar o layout em diferentes resoluções (480px, 767px, 991px, 1199px).
-
----
-
-## **Estrutura de Arquivo**
-
-O código CSS está organizado em blocos e é dividido por media queries para atender a múltiplas resoluções.
-
----
-
-## **Como Utilizar**
-
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seuusuario/repositorio.git
-    ```
-2. Importe o arquivo CSS para seu projeto HTML.
-3. Teste o layout em diferentes dispositivos e tamanhos de tela.
+### Como utilizar
+1. **Clone o repositório:** `git clone https://github.com/seu_usuario/seu_repositorio.git`
+2. **Abra o arquivo index.html em um navegador.**
