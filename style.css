@@ -1,0 +1,88 @@
+/* Fontes */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Icones */
+
+    @import url('https://unpkg.com/css.gg@2.0.0/icons/css/user.css');
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body style */
+
+body {
+    background-image: linear-gradient(to right, #bbe7f5, rgb(252, 157, 173));
+}
+
+main .container {
+    max-width: 300px;
+    width: 100%;
+    margin: 110px auto;
+    display: block;
+    text-align: start;
+    border-radius: 5px;
+    padding: 36px 18px;
+    box-shadow: 0px 0px 15px rgb(110, 110, 110);
+    background-color: #fff;
+    text-align: center;
+}
+
+main .container h1 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+main .container input {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 265px;
+    padding: 16px 0px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    text-align: center;
+}
+
+main .container input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(145, 16, 38);
+}
+
+main .container .submit {
+    margin: 12px 0px;
+    width: 265px;
+    height: 32px;
+    background-image: linear-gradient(to right, rgb(255, 120, 142), rgb(250, 72, 101));
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+main .container .submit:hover {
+    background-image: linear-gradient(to right, rgb(252, 147, 165), rgb(255, 97, 123));
+}
+
+main .container a {
+    text-decoration: none;
+}
+
+main .container a:hover {
+    border-bottom: 1px solid;
+}
+
+/* Estilização do aviso de informação inválida */
+
+.error-message {
+    color: red;
+    padding: 2px;
+    font-style: italic;
+}
